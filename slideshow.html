@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    
+    <style>
+      *{
+	margin:0px;
+	}
+#slider {
+	height:400px;
+	width:650px;
+	margin: 50px auto;
+	position:relative;
+	border-radius:4px;
+	overflow:hidden;
+	}
+#image {
+	height:400px;
+	width:650px;
+	position:absolute;
+	}
+.left_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.left {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:20px;
+	opacity:0;
+	transition: all .2s ease-in-out 0s;
+	}
+.right {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	right:20px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+	}
+.left_hold:hover .left {
+	opacity:0.6;
+	}
+.right_hold:hover .right {
+	opacity:0.6;
+}
+.left:hover .left1  
+        
+    </style>
+
+<script type="text/javascript">
+var imagecount = 1;
+var total = 5;
+
+function slide(x) {
+	var Image = document.getElementaryById('img');
+	imagecount = imagecount + x;
+	if(imagecount > total){imagecount = 1;
+	}
+	if(imagecount < 1){imagecount = total;}
+		Image.src = "images/IMG"+ imagecount + ".jpg";
+}
+
+</script>
+
+</head>
+<body>
+<div id="container">
+<img src="images/IMG_1109.jpg" id="IMG"/>
+<div id="left_hoder"><img onClick="slide(-1)" class="left" src="Images/arrow_left.png"</div>
+<div id="right_hoder"><img onClick="slide(-1)"  class="right" src="Images/arrow_right.png"</div> 
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.boxed {
+  border: 1px solid black ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: clear;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: grey;
+}
+
+.active {
+    background-color: clear;
+}
+#header {
+    background-image: clear;
+    background-size: 2000px 400px;
+    background-position: center;
+    color: black;
+    font-size: 25px;
+    text-align:center;
+    padding: 1px;
+
+}
+
+div.scroll {
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    overflow: scroll;
+    border: 2px solid black;
+}
+
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey; 
+}
+
+
+#section{
+    margin: top;
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+<div id="header">
+<ul>
+<li><a href="contact.html">Contact</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <ul style="float:right;list-style-type:none;">
+    <li><a href="about.html">About</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+</ul>
+<h1><font color="black">Contact Me</font></h1>
+</div>
+
+<div id="nav">
+<?php include("_footer.php");?>
+</div>
+
+<?php include("search.php");?>
+
+  </div>
+</div>
+
+<div id="section">
+	<form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<input type="text" name="comment" value="your comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/itsmatttong"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a>
+
+</div>
+
+<div id="boxed">
+	<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/itsmatttong"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a>
+	<a target="_blank" title="follow me on facebook" href="http://www.facebook.com/matthew.tong.75"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a>
+
+
+  </div>
+
+<div id="footer">
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
