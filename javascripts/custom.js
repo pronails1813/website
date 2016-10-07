@@ -35,7 +35,6 @@
 		/* ---------------------------------------------- */
 
 		$('#intro').backstretch([
-			'images/IMG_1109.jpg',
 			'images/IMG_1110.jpg',
 			'images/IMG_1111.jpg',
 			'images/IMG_1112.jpg',
