@@ -37,7 +37,8 @@
 		$('#intro').backstretch([
 			'images/IMG_1110.jpg',
 			'images/IMG_1111.jpg',
-			'images/IMG_1113.jpg'
+			'images/IMG_1114.jpg',
+			'images/IMG_1115.jpg'
 		], {duration: 3000, fade: 750});
 
 		/* ---------------------------------------------- /*
