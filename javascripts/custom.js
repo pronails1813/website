@@ -38,8 +38,7 @@
 			'images/IMG_1110.jpg',
 			'images/IMG_1111.jpg',
 			'images/IMG_1112.jpg',
-			'images/IMG_1113.jpg',
-			'images/IMG_1114.jpg'
+			'images/IMG_1113.jpg'
 		], {duration: 3000, fade: 750});
 
 		/* ---------------------------------------------- /*
